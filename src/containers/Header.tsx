@@ -1,14 +1,10 @@
 import { FunctionComponent } from "react";
+import { NavBar, SideBar } from "../components";
 
-export const Header: FunctionComponent =()=>{
+export const Header: FunctionComponent = () => {
   return (
-  <head>
-    This is the header!
-    <meta charSet="utf-8"/>
-  </head>
-    
-
+    <div className="Header">
+      <SideBar />
+    </div>
   );
-
-}
-
+};
